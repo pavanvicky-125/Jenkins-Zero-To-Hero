@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: pavan/roopa143-cicd:4
+        image: pavanroopa143/pavan-images:replaceImageTag
         ports:
         - containerPort: 8080
